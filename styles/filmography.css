@@ -31,6 +31,7 @@ nav {
 .grid p {
   padding: 2rem 0;
   justify-self: center;
+  text-align: center;
 }
 
 .grid img {
@@ -44,4 +45,5 @@ nav {
 
 .movie-title {
   font-family: "Kdam Thmor Pro", sans-serif;
+  text-transform: uppercase;
 }
