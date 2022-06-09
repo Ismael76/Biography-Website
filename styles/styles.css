@@ -12,3 +12,7 @@ a {
   height: 40rem;
   object-fit: cover;
 }
+
+.img-van {
+  border-radius: 50%;
+}
