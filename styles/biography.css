@@ -43,12 +43,12 @@ h2 {
     text-shadow: #000;
 }
 
-a {
+.a-links {
     text-decoration: none;
     color: #343434;
     text-shadow: 0 0 3px #775f5f, 0 0 5px #a7a7bb;
 }
 
-a:hover {
+.a-links:hover {
     text-shadow: 0 0 3px #8a4949, 0 0 5px #6a6aaa;
 }
