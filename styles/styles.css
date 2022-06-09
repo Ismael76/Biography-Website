@@ -10,16 +10,19 @@ a {
 .img-crsl {
   width: 100%;
   height: 40rem;
-  object-fit: cover;
 }
 
 .img-van {
   border-radius: 50%;
 }
 
+footer {
+  box-shadow: -2px -1px 10px lightgray;
+}
 
-@media only screen and (max-width:991px) {
+@media only screen and (max-width: 991px) {
   .img-crsl {
     height: 50%;
+    width: 50%;
   }
 }
