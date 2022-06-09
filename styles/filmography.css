@@ -16,18 +16,20 @@ nav {
   display: grid;
   grid-template-columns: 20% 20% 20% 1fr;
   grid-template-rows: 10% 1fr;
-  column-gap: 1.5rem;
   row-gap: 1.5rem;
   overflow-y: scroll;
   height: 95vh;
   border: 1px solid black;
-  margin-bottom: 2rem;
 }
 
 .grid h3 {
   justify-self: center;
   font-weight: bolder;
   font-family: "Kdam Thmor Pro", sans-serif;
+  margin-top: 1rem;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width: 100%;
 }
 
 .grid p {
