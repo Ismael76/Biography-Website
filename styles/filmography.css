@@ -1,0 +1,47 @@
+.container {
+  margin-top: 5rem !important;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.5rem;
+}
+
+nav {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% 20% 1fr;
+  grid-template-rows: 10% 1fr;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.grid h3 {
+  justify-self: center;
+  font-weight: bolder;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.grid p {
+  padding: 2rem 0;
+  justify-self: center;
+}
+
+.grid img {
+  padding: 2rem 0;
+}
+
+.cover-img {
+  height: 300px;
+  width: 100%;
+}
+
+.movie-title {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
