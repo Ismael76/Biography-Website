@@ -1,7 +1,5 @@
 # Fp_Day4_Website_RP
-Website:
-  
-    Home:
+ Home:
     
         Navbar
         Hero Banner
