@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Guys Name</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/biography.css">
 </head>
+
 <body>
-    
+    <main>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Biography</h1>
+                    <p class="lead text-muted">Pino van Lamsweerde 1940-2020</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/biography1.webp" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/biography2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/biography3.jpg" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-5 container text-center">
+        <div class="">
+            <h2>Personal life</h2>
+            <p>
+                Born in Turin on September 18, 1940 from Alessandro van Lamsweerde and Giuliana Tracanella. He moves
+                with his family at a very young age to Milan where later in life he attends the Brera Academy, where he
+                specializes in school of nude. In 1966 he embarks to go to Canada, spending a brief period in New York
+                City, where he will remain until 1997 living between Toronto, Ottawa, Vancouver and Montreal. In 1997 he
+                moved to Paris where he remained until his death.
+
+                Pino van Lamsweerde grew up and studied in Milan, where he made his first experiences as an animator; in
+                1966 he moved to Canada, pursuing his studies and working for the National Film Board of Canada.[1] In
+                1973 he joins the team of 15 directors of the medium-length film Man: The Polluter.[2] He was then
+                animator in short films and television films, as well as in some episodes of the series Wait Till Your
+                Father Gets Home. In the early 1980s he worked for Atkinson Film-Arts directing the "Harry Canyon"
+                segment[3] of the Heavy Metal movie and some television specials, then moved to Paris where he directed
+                Asterix in Britain (1986), and worked on the storyboards for the television series The Smoggies[4] In
+                the 1990s he worked on the storyboards for the television series Spirou and Problem Child, while between
+                2004 and 2006 he was director of the exposure sheets (X-Sheets) for the television series Code Lyoko,
+                Monster Allergy and Dragon Hunters. He died in Paris on April 10, 2020, aged 79, of complications from
+                COVID-19.[5]
+            </p>
+
+
+            <hr>
+
+            <h2>Professional career</h2>
+            <p>
+                He starts working in Milan doing artwork and graphics by designing advertising posters. In 1968 he
+                collaborated on the feature film The Magic Bird.[6]
+
+                In 1969 after moving to Montreal he began as an animator working on the movie Tiki Tiki.[7] In the 70s
+                he worked on the series Wait Till Your Father Gets Home by Hanna-Barbera between Sydney and Vancouver.
+
+                In the mid-1970s he settled in Ottawa where he worked for Atkinson Film Arts as an animation director
+                and then as a director.[8][9][10][11] In 1981 he worked on the film Heavy Metal,[12] in which he
+                directed the Harry Canyon segment.
+
+                There he remained until 1985, when he moved to Paris to work as a director on the feature film Asterix
+                in Britain.[13]
+
+                In 1987 he moved to Montreal to work as a director, animation director, designer and storyboard artist
+                on several animated television series; The Smoggies,[4] The Nutcracker Prince[14] The Legend of White
+                Fang[15] Spirou.[16]
+
+                In 1997 he moved to Paris where he remained until his death, except for a brief interlude in which in
+                1999 he collaborated in Milan in the realization of a few animated episodes inspired by the character
+                Corto Maltese, co-production Animation Band, Stranemani, Rai.
+            </p>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: "",
+            },
+        });
+    </script>
 </body>
+
 </html>
